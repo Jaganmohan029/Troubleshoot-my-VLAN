@@ -1,0 +1,34 @@
+The NUMBER of switches is : 4 (Entered in run-time while executing the Topology_File_Generator.py)
+The Vlan_ID you have entered is : 456 (Entered in run-time while executing the Topology_File_Generator.py)
+
+Enter the IP of Switch-1 : 192.168.8.12
+Enter the VENDOR of Switch- 1 : huawei
+Enter the USERAME of Switch- 1 for SSH : testuser
+Enter the PASSWORD of Switch- 1 for SSH : testpassword
+Enter the ENABLE PASSWORD of Switch - 1(for Running Config if the vendor is huawei else TYPE 'NA' in this field) : NA
+Enter the ACCESS port : fa1/3
+Enter the FIRST TRUNK port : fa1/1
+
+Enter the IP of Switch-2 : 192.168.8.13
+Enter the VENDOR of Switch- 2 : huawei
+Enter the USERAME of Switch- 2 for SSH : testuser
+Enter the PASSWORD of Switch- 2 for SSH : testpassword
+Enter the ENABLE PASSWORD of Switch - 2(for Running Config if the vendor is huawei else TYPE 'NA' in this field) : NA
+Enter the FIRST TRUNK port : fa1/1
+Enter the SECOND TRUNK port : fa1/2
+
+Enter the IP of Switch-3 : 192.168.8.14
+Enter the VENDOR of Switch- 3 : huawei
+Enter the USERAME of Switch- 3 for SSH : testuser
+Enter the PASSWORD of Switch- 3 for SSH : testpassword
+Enter the ENABLE PASSWORD of Switch - 3(for Running Config if the vendor is huawei else TYPE 'NA' in this field) : NA
+Enter the FIRST TRUNK port : fa1/2
+Enter the SECOND TRUNK port : fa1/3
+
+Enter the IP of Switch-4 : 192.168.8.15
+Enter the VENDOR of Switch- 4 : huawei
+Enter the USERAME of Switch- 4 for SSH : testuser
+Enter the PASSWORD of Switch- 4 for SSH : testpassword
+Enter the ENABLE PASSWORD of Switch - 4(for Running Config if the vendor is huawei else TYPE 'NA' in this field) : NA
+Enter the ACCESS port : fa1/3
+Enter the FIRST TRUNK port : fa1/4
