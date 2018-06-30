@@ -1,0 +1,35 @@
+The NUMBER of switches is : 4
+The Vlan_ID you have entered is : 556
+
+Enter the IP of Switch-1 : 
+Enter the VENDOR of Switch- 1 : 
+Enter the USERAME of Switch- 1 for SSH : 
+Enter the PASSWORD of Switch- 1 for SSH : 
+Enter the ENABLE PASSWORD of Switch - 1(for Running Config if the vendor is CISCO else TYPE 'NA' in this field) : 
+Enter the ACCESS port : 
+Enter the FIRST TRUNK port : 
+
+Enter the IP of Switch-2 : 
+Enter the VENDOR of Switch- 2 : 
+Enter the USERAME of Switch- 2 for SSH : 
+Enter the PASSWORD of Switch- 2 for SSH : 
+Enter the ENABLE PASSWORD of Switch - 2(for Running Config if the vendor is CISCO else TYPE 'NA' in this field) : 
+Enter the FIRST TRUNK port : 
+Enter the SECOND TRUNK port : 
+
+Enter the IP of Switch-3 : 
+Enter the VENDOR of Switch- 3 : 
+Enter the USERAME of Switch- 3 for SSH : 
+Enter the PASSWORD of Switch- 3 for SSH : 
+Enter the ENABLE PASSWORD of Switch - 3(for Running Config if the vendor is CISCO else TYPE 'NA' in this field) : 
+Enter the FIRST TRUNK port : 
+Enter the SECOND TRUNK port : 
+
+Enter the IP of Switch-4 : 
+Enter the VENDOR of Switch- 4 : 
+Enter the USERAME of Switch- 4 for SSH : 
+Enter the PASSWORD of Switch- 4 for SSH : 
+Enter the ENABLE PASSWORD of Switch - 4(for Running Config if the vendor is CISCO else TYPE 'NA' in this field) : 
+Enter the ACCESS port : 
+Enter the FIRST TRUNK port : 
+
