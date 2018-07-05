@@ -22,6 +22,13 @@ def cisco_send_command_function(port, connection):
 def huawei_send_command_function(port, connection):
 	show_command = "display curr inter "+ port
 	result = connection.send_command(show_command)
+	result = result.splitlines()
+	result = [s.rstrip() for s in result]
+	result = list(filter(None, result))
+	result = result[(result.index("#")+1):(len(result)-2)]
+	for i in range(len(result)):
+		result[i]=result[i].strip()
+	result = ' '.join(result)
 	return result
   
 #SSH_connection remotely accesses the devices using netmiko library and gets the configuration and passes the output to the respective access or trunk validation functions  

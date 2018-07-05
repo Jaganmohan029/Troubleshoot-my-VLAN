@@ -61,7 +61,3 @@ def huawei_trunk_validation(IP_address,Data_from_interface,Vlan_id):
 		print("For the switch IP",IP_address)
 		print("The Interface",Data_from_interface[Data_from_interface.index("interface")+1].upper(),"IS NOT configured as a TRUNK port")
 		print("Please MODIFY the configuration")
-
-#call this function from the login page with the information extracted from the login and erase the next lines
-#vlan_data_1= "interface GigabitEthernet0/0/10 description connected to Huawei 185.2 port 9 port link-type Trunk port trunk allow-pass vlan 2 to 104 106 to 155 157 to 199 501 to 555 1965 to 1977"
-#huawei_trunk_validation(vlan_data_1)
