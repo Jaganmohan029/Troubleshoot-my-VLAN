@@ -16,6 +16,7 @@ Limitations with the codes:
 
 Recommendations:
 * Make sure all the interfaces involved in the troubleshooting process are in UP state. Currently the tool is not capable of checking the port status.
+* Make sure The port description does not contain configuration commands (Switchport, mode, allowed, trunk etc) in it.
 * To make the code to crawl through the network you have to give the necessary access and port level information of the network devices.
 * Please fill all the fields in the Net_topology.txt file without fail else the troubleshooter will not execute and ends up throwing errors. As of now, the code is not mature to validate the User input but I am working on it. If you have any doubts kindly go through the Sample_Net_topology.txt file with the sample network information.
 
